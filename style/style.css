@@ -1,0 +1,206 @@
+:root{
+    --amarelo: #ffd800;
+    --azul1: #469EDA;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+/*elementos base*/
+body{
+    background: var(--azul1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--amarelo);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+    font-size: 40px;
+}
+header nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #aaa;
+}
+
+/*pessoa estudando*/
+.pessoa-estudando .descricao{
+    margin-bottom: 40px;
+}
+.pessoa-estudando .titulo{
+    margin-top: 8%;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.botao{
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 20px;
+    margin-top: 1%;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i {
+    margin-right: 8px;
+}
+.container{
+    margin-left: 20px;
+}
+.imagem-estudando{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.titulo-curso{
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5%; 
+}
+.subtitulo-curso{
+    font-size: 20px;
+    margin-top: 4%;
+    color: var(--amarelo);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chamada-curso{
+    font-size: 20px;
+    color: var(--azul1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+.column {
+    margin-top: 2%;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+
+.row {
+    margin: 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+.card {
+    color: black;
+    margin-top: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.card p{
+    font-style: italic;
+    margin-top: 10%;
+}
+
+.botao-aulas{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explicacao{
+    margin-top: 10%;
+}
+.explicacao h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explicacao h4{
+    font-size: 20px;
+    color: var(--amarelo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.explicacao p{
+    margin-left: 3%;
+    color: whitesmoke;
+
+}
+.fazendo-prova{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.comentarios{
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5%; 
+}
+.comentarios .sub-comentarios{
+    color: var(--azul1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.propaganda-celular{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.propaganda-celular .titulo-celular{
+    color: var(--amarelo);
+}
+.propaganda-celular .subtitulo-celular{
+    margin-top: 2%;
+    font-size: 20px;
+}
+.imagem-celular{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape{
+    color: var(--azul1);
+    background-color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10%; 
+}
+.redes{
+    margin-top: 10%;
+}
+.rodape h{
+    margin-top: 10%;
+}
